@@ -1,4 +1,4 @@
-Nombre del proyecto: PapeleriaPOS.
+#*Nombre del proyecto: PapeleriaPOS.*
 
 Negocio: Papelería.
 
