@@ -25,8 +25,7 @@ Medios de pago aceptados:
 - Transferencia bancaria.
 2. Integrantes del equipo
 - Alejandro Acevedo.
-- Juan Pablo Díaz.
-- Nombre del tercer integrante.
+- Cristopher Osto.
 3. Identificación de las clases
 Para desarrollar el sistema POS se identificaron las siguientes clases:
 
@@ -87,26 +86,3 @@ PapeleriaPOS/
 - docs/
   - uml-v1.png
 - README.md
-7. Descripción del README
-PapeleriaPOS
-
-PapeleriaPOS es un sistema de punto de venta desarrollado en Java para administrar las ventas de una papelería.
-
-Negocio:
-
-El negocio se dedica a la comercialización de útiles escolares y artículos de oficina.
-
-Tipos de productos:
-- Productos escolares: cuadernos, lápices, colores y borradores.
-- Productos de papelería al por mayor: artículos vendidos en grandes cantidades con precios especiales.
-Medios de pago:
-- Efectivo.
-- Transferencia bancaria.
-Integrantes:
-- Alejandro Acevedo.
-- Cristopher Osto
-Tecnologías utilizadas:
-- Java.
-- NetBeans.
-- GitHub.
-- Draw.io.
