@@ -1,4 +1,3 @@
-# PapeleriaPos
 Nombre del proyecto: PapeleriaPOS.
 
 Negocio: Papelería.
@@ -58,4 +57,56 @@ SistemaPOS: administra el funcionamiento del sistema. Sus métodos son registrar
 5. ItemVenta se relaciona con Producto porque indica qué producto se vendió y en qué cantidad.
 6. PagoEfectivo y PagoTransferencia heredan de MetodoPago.
 7. SistemaPOS administra los productos, clientes y ventas.
-5. Diagrama de clases U
+5. Diagrama de clases UML inicial
+El diagrama UML representa la organización del sistema y las relaciones entre sus clases.
+
+Las clases principales son Cliente, Producto, Venta, ItemVenta, MetodoPago y SistemaPOS.
+
+También se incluyen las clases ProductoEscolar y ProductoPapeleriaMayor, que heredan de Producto, y PagoEfectivo y PagoTransferencia, que heredan de MetodoPago.
+
+Este diagrama permite comprender cómo se organiza el programa antes de comenzar o continuar con su desarrollo en Java.
+6. Organización del repositorio GitHub
+El proyecto tendrá la siguiente estructura:
+
+PapeleriaPOS/
+- src/
+  - com.papeleriapos.ejecucion/
+    - Main.java
+  - com.papeleriapos.logica/
+    - SistemaPOS.java
+  - com.papeleriapos.modelo/
+    - Cliente.java
+    - ItemVenta.java
+    - MetodoPago.java
+    - PagoEfectivo.java
+    - PagoTransferencia.java
+    - Producto.java
+    - ProductoEscolar.java
+    - ProductoPapeleriaMayor.java
+    - Venta.java
+- docs/
+  - uml-v1.png
+- README.md
+7. Descripción del README
+PapeleriaPOS
+
+PapeleriaPOS es un sistema de punto de venta desarrollado en Java para administrar las ventas de una papelería.
+
+Negocio:
+
+El negocio se dedica a la comercialización de útiles escolares y artículos de oficina.
+
+Tipos de productos:
+- Productos escolares: cuadernos, lápices, colores y borradores.
+- Productos de papelería al por mayor: artículos vendidos en grandes cantidades con precios especiales.
+Medios de pago:
+- Efectivo.
+- Transferencia bancaria.
+Integrantes:
+- Alejandro Acevedo.
+- Cristopher Osto
+Tecnologías utilizadas:
+- Java.
+- NetBeans.
+- GitHub.
+- Draw.io.
