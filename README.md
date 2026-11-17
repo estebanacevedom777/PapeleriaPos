@@ -63,26 +63,4 @@ Las clases principales son Cliente, Producto, Venta, ItemVenta, MetodoPago y Sis
 
 También se incluyen las clases ProductoEscolar y ProductoPapeleriaMayor, que heredan de Producto, y PagoEfectivo y PagoTransferencia, que heredan de MetodoPago.
 
-Este diagrama permite comprender cómo se organiza el programa antes de comenzar o continuar con su desarrollo en Java.
-6. Organización del repositorio GitHub
-El proyecto tendrá la siguiente estructura:
 
-PapeleriaPOS/
-- src/
-  - com.papeleriapos.ejecucion/
-    - Main.java
-  - com.papeleriapos.logica/
-    - SistemaPOS.java
-  - com.papeleriapos.modelo/
-    - Cliente.java
-    - ItemVenta.java
-    - MetodoPago.java
-    - PagoEfectivo.java
-    - PagoTransferencia.java
-    - Producto.java
-    - ProductoEscolar.java
-    - ProductoPapeleriaMayor.java
-    - Venta.java
-- docs/
-  - uml-v1.png
-- README.md
