@@ -1,6 +1,6 @@
-#*Nombre del proyecto: PapeleriaPOS.*
+# *Nombre del proyecto: PapeleriaPOS.*
 
-Negocio: Papelería.
+*Negocio: Papelería.*
 
 Objetivo: Conformar el equipo de trabajo, definir el negocio y realizar el diseño inicial del sistema de punto de venta (POS).
 1. Definición del negocio
